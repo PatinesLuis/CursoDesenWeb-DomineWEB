@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header, h1{
+    background-color: rgb(253, 253, 60);
+    text-align: center;
+    padding: 25px;
+}
+
+h1{
+    color: rgb(145, 145, 145);
+}
+
+span{
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 4px;
+    font-size: 20px;
+}
+
+#area-menu a:link, #area-menu a:visited{
+    color: rgb(255, 255, 255);
+}
+
+#area-menu a:hover{
+    color: rgb(253, 253, 60);
+    background-color: rgb(255, 255, 255);
+}
+
+#area-principal{
+    width: 920px;
+    margin: auto;
+}
+
+#area-postagem{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+    padding-bottom: 5px;
+
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+}
+
+
+.postagem h2, img{
+    padding-top: 25px;
+    color: rgb(48, 48, 48);
+    text-shadow: 5px 0px 10px rgb(255, 177, 74);
+}
+
+.postagem a{
+    color: yellow;
+}
+
+.conteudo-lateral{
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.conteudo-lateral h3{
+    background-color: #ccc;
+    color: black;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#area-lateral p{
+    margin: 5px;
+}
+#area-principal #area-lateral a{
+    color: yellow;
+    font-size: 12px;
+    display: block;
+}
+
+#area-principal a:hover{
+    text-decoration: underline;
+}
