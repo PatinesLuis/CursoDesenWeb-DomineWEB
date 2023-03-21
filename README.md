@@ -38,11 +38,18 @@
 [ ] SESSÃO 17: jQuery
 
 [ ] SESSÃO 18: Padrao de arquitetura MVC com php
+
 [ ] SESSÃO 19: PHP 7 e mySQL projeto aplicado twitter clone
+
 [ ] SESSÃO 20: API com slim framework
+
 [ ] SESSÃO 21: SASS
+
 [ ] SESSÃO 22: Criando aplicações mobile com IONIC
+
 [ ] SESSÃO 23: Wordpress
+
 [ ] SESSÃO 24: BONUS DE ECMASCRIPT
+
 [ ] SESSÃO 25: BONUS
 
