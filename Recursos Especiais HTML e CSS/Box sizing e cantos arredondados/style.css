@@ -1,0 +1,30 @@
+#caixa{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(18, 83, 143);
+    padding: 20px;
+    border-radius: 90px 5px 80px 100px;
+                  /* esquerda, direita em cima, esquerda e direita em baixo */
+
+}
+
+.redond{
+    border-radius: 150px;
+}
+
+#caixa2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(53, 143, 18);
+    padding: 50px;
+}
+
+#caixa3{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(110, 143, 18);
+    padding: 50px;
+    box-sizing: border-box;
+    /* border-box tira a propriedade de soma dos padding */
+}
+
