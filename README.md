@@ -13,7 +13,7 @@
 
 [x] SESSÃO 5: CSS3 intermediário & Avançado
 
-[ ] SESSÃO 6: HTML5 e CSS3 recursos especiais
+[x] SESSÃO 6: HTML5 e CSS3 recursos especiais
 
 [ ] SESSÃO 7: Bootstrap 4 & design responsivo
 
