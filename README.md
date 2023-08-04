@@ -15,7 +15,7 @@
 
 [x] SESSÃO 6: HTML5 e CSS3 recursos especiais
 
-[ ] SESSÃO 7: Bootstrap 4 & design responsivo
+[x] SESSÃO 7: Bootstrap 4 & design responsivo
 
 [ ] SESSÃO 8: JavaScript
 
