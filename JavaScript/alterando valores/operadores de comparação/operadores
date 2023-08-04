@@ -1,0 +1,8 @@
+igual(==) verificar se os valores comparados sao iguais
+identico(===) verifica se os valores comparados sao iguais e do mesmo tipo
+diferente (!=) verifica se os valores comparados são diferentes
+Não identicos(!==) verifica se os valores comparados são diferentes e de tipos diferentes
+menor(<) verifica se o valor da esquerda é menor que o valor da direita
+maior(>) verifica se o valor da esquerda é maior que o valor da direita
+menor igual (<=) verifica se o valor da esquerda é menor ou igual que o valor da direita
+menor igual (>=) verifica se o valor da esquerda é maior ou igual que o valor da direita
