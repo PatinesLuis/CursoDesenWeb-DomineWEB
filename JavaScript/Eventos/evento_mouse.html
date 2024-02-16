@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento mouse</title>
+
+    <script>
+        function acao(){
+            alert('evento disparado')
+        }
+    </script>
+</head>
+<body>
+
+    <div onclick="acao()" style="background-color: aquamarine; height: 150px; width: 150px; margin: 10px;">onclick</div>
+    <div ondblclick="acao()" style="background-color: rgb(47, 71, 63); height: 150px; width: 150px;margin: 10px;">ondblclick</div>
+    <div onmouseup="acao()" style="background-color: rgb(21, 46, 129); height: 150px; width: 150px;margin: 10px;">onmouseup</div>
+    <div onmouseover="acao()" style="background-color: rgb(143, 189, 36); height: 150px; width: 150px;margin: 10px;">onmouseover</div>
+    <div onmouseout="acao()" style="background-color: rgb(58, 60, 65); height: 150px; width: 150px;margin: 10px;">onmouseout</div>
+
+</body>
+</html>
