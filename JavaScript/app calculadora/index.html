@@ -54,7 +54,7 @@
           <br />
 
           <div class="calculadora">
-            <input type="text" class="form-control resultado" placeholder="0" disabled="disabled" />
+            <input type="text" class="form-control resultado" id="resultado" placeholder="0" disabled="disabled" />
             
             <div class="row">
               <button type="button" onclick="calcular('acao', 'c')" class="btn btn-dark btn-lg clear font-weight-light">C</button>
@@ -95,7 +95,24 @@
     
     <script>
       function calcular (tipo, valor){
-        console.log(tipo, valor);
+        if(tipo === 'acao'){
+          if(valor === 'c'){
+            //limpando campo resultado
+            document.getElementById('resultado').value = '';
+          }
+
+          if(valor === "+" || valor === "-" || valor === "*" || valor === "/" || valor === "."){
+            document.getElementById('resultado').value += valor
+          }
+
+          if(valor === '='){
+           let valor_campo = eval(document.getElementById('resultado').value)
+           document.getElementById('resultado').value = valor_campo
+
+          }
+        }else if(tipo ==='valor'){
+          let valor_campo = document.getElementById('resultado').value += valor
+        }
       }
     </script>
   </body>	
