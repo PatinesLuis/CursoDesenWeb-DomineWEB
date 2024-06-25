@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var lista_frutas = Array()
+
+        lista_frutas[0] = 'banana'
+        lista_frutas[1] = 'maça'
+
+        // incluir elemento no final do array.
+        lista_frutas.push('uva')
+
+        //incluir elemento no inicio do array.
+        lista_frutas.unshift('melancia')
+
+        //para excluir elemento no final do array
+        lista_frutas.pop()
+
+        //excluir elemento no inicio do array
+        lista_frutas.shift()
+
+        console.log(lista_frutas)
+
+        ///// manipular array multidimensional 
+
+        var lista_coisas = Array()
+        lista_coisas['frutas'] = Array()
+        lista_coisas['pessoas'] = []
+
+        lista_coisas['frutas'].push('banana')
+        console.log(lista_coisas)
+    </script>
+</body>
+</html>
